@@ -3,20 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/pexels-manojmanohar-32349063-m.jpg');
             background-position: center center;
             background-repeat: no-repeat;
-            background-size: cover
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /* Shorthand - background
+               color > image > position > repeat > [size] > attachment
+               o size não funciona com a shorthand
+
+            */
+
+            background: black url('imagens/pexels-manojmanohar-32349063-m.jpg') center center no-repeat fixed;
+            background-size: cover;
 
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,6 +37,8 @@
 <body>
     <main>
         <h1> Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate in veritatis doloremque quam debitis, eum optio libero dolor at molestias rerum nulla, sit minus maiores nobis ex repellendus exercitationem ad?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea inventore accusantium minus incidunt quisquam, error illum aut vel placeat enim exercitationem, sapiente, officiis perspiciatis facere nisi rerum similique dolorum totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit provident blanditiis deleniti, repudiandae quis totam dicta aliquid praesentium quia consequuntur dolores facere sit commodi nisi nesciunt necessitatibus consectetur quod architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nulla maiores voluptates repudiandae quas quidem in quis saepe, et dolore. Ab optio officiis iste magnam cum doloribus unde, consequatur suscipit?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat alias accusantium nam ad ea impedit commodi voluptates aut culpa, repudiandae similique, cumque possimus quam explicabo? Magnam nemo voluptates ut quis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate in veritatis doloremque quam debitis, eum optio libero dolor at molestias rerum nulla, sit minus maiores nobis ex repellendus exercitationem ad?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea inventore accusantium minus incidunt quisquam, error illum aut vel placeat enim exercitationem, sapiente, officiis perspiciatis facere nisi rerum similique dolorum totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit provident blanditiis deleniti, repudiandae quis totam dicta aliquid praesentium quia consequuntur dolores facere sit commodi nisi nesciunt necessitatibus consectetur quod architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nulla maiores voluptates repudiandae quas quidem in quis saepe, et dolore. Ab optio officiis iste magnam cum doloribus unde, consequatur suscipit?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat alias accusantium nam ad ea impedit commodi voluptates aut culpa, repudiandae similique, cumque possimus quam explicabo? Magnam nemo voluptates ut quis.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate in veritatis doloremque quam debitis, eum optio libero dolor at molestias rerum nulla, sit minus maiores nobis ex repellendus exercitationem ad?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea inventore accusantium minus incidunt quisquam, error illum aut vel placeat enim exercitationem, sapiente, officiis perspiciatis facere nisi rerum similique dolorum totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit provident blanditiis deleniti, repudiandae quis totam dicta aliquid praesentium quia consequuntur dolores facere sit commodi nisi nesciunt necessitatibus consectetur quod architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nulla maiores voluptates repudiandae quas quidem in quis saepe, et dolore. Ab optio officiis iste magnam cum doloribus unde, consequatur suscipit?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat alias accusantium nam ad ea impedit commodi voluptates aut culpa, repudiandae similique, cumque possimus quam explicabo? Magnam nemo voluptates ut quis.</p>
     </main>
 </body>
