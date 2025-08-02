@@ -1,0 +1,16 @@
+name: Verificar HTML e CSS
+
+on:
+ push:
+   branches: [main]
+
+jobs:
+ build:
+  runs-on:ubuntu-lastest
+  steps:
+   - name: Checkout do código
+     uses: actions/checkout@v3
+    
+   - name: Listar arquivos do projeto
+     run: ls -R
+
